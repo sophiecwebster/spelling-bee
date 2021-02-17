@@ -44,6 +44,8 @@ for i in range(0, len(words)):
     for b in range(0, len(slimmed_alpha)):
         # this weeds out words containing out-of-bounds letters
         if slimmed_alpha[b] in words[i]:
+            # how can i get it to delete the word instead?
+            # create copy of list?
             words[i] = 'foo'
         else:
             words[i] = words[i]
